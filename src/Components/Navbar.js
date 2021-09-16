@@ -26,6 +26,11 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+          <div>
+            <button disabled={true} className="btn btn-outline-success">
+              Balance: 10000
+            </button>
+          </div>
         </div>
       </div>
     </nav>
